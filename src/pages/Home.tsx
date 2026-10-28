@@ -1,5 +1,6 @@
 import { profile, publishedWork } from "../content/profile";
 import { ScrollIcon } from "../components/ui/ScrollIcon";
+import { TechStackSection } from '../components/portfolio/TechStackSection'
 
 export function Home() {
   return (
@@ -140,6 +141,8 @@ export function Home() {
           </p>
         </div>
       </section>
+
+      <TechStackSection />
 
       <section
         id="about"

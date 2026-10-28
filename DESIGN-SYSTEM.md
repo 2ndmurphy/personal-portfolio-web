@@ -212,6 +212,8 @@ Footer composition: follow reference 01's close-up layout with a compact introdu
 
 ### Case-study contract
 
+Technology section: place it between Work and About. Group the owner-confirmed stack into Languages (JavaScript/TypeScript and Python), Libraries & frameworks (React, ASP.NET, FastAPI), and Data & tools (PostgreSQL, Git). Use compact items with 44px icon frames, 28px monochrome brand marks, visible names, and a brief role description. JavaScript and TypeScript share an item with two icons; ASP.NET uses the .NET ecosystem mark. Provide a monogram fallback while remote icons load or if they fail, and hide the redundant icons from assistive technology. Render three groups across desktop, two across tablet, and one on mobile. Do not style non-interactive items as buttons. Keep the portfolio website's dependencies separate. Follow the groups with an evidence note or real links with provenance; do not invent project links, proficiency percentages, or frequency claims. Explain architecture concepts inside case studies with concrete examples rather than presenting them as another list of tools.
+
 Make professional experience tangible through explanation and evidence even when repositories are private. Every published case study must contain:
 
 1. **Overview:** title, professional/personal work label, period, role, team context, relevant stack, and confidentiality note if needed.
