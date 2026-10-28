@@ -208,6 +208,8 @@ Use a 4px base unit. Prefer Tailwind’s standard spacing scale and reserve arbi
 
 For Hugeicons, standardize on a single stroke style, 20px icons within text controls and 24px standalone icons. Hide decorative icons from assistive technology; label icon-only controls and give them at least a 44×44px target. Do not use technology logos as the sole skill label.
 
+Footer composition: follow reference 01's close-up layout with a compact introduction on the left and Site/Contact groups on the right. Contact replaces the reference's Admin column and contains reference 02-style email and résumé details, with PDF type and file size when the résumé exists. Use non-interactive unpublished states until real contact details and files are supplied. Reserve LinkedIn, GitHub, and Dribbble icon spaces under the introduction; activate them only for verified profile URLs, with platform-specific accessible names and 44×44px targets. Keep copyright beneath the introduction rather than in a separate dividing row. Remove contact-row borders. Below a generous gap, scale the black display name to the full content width using decorative SVG text; hide that duplicate name from assistive technology. Center Back to the Top below the large name, using the hero CTA's pill styling and automatic bounce, an upward icon, hover/focus pause, and reduced-motion override. Stack the main columns below 768px, retain adjacent Site/Contact groups, and wrap long email addresses.
+
 ### Case-study contract
 
 Make professional experience tangible through explanation and evidence even when repositories are private. Every published case study must contain:

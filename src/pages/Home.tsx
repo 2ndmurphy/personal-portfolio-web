@@ -1,5 +1,5 @@
-import { profile, publishedWork } from '../content/profile'
-import { ScrollIcon } from '../components/ui/ScrollIcon'
+import { profile, publishedWork } from "../content/profile";
+import { ScrollIcon } from "../components/ui/ScrollIcon";
 
 export function Home() {
   return (
@@ -52,7 +52,7 @@ export function Home() {
             )}
           </div>
           <figcaption>
-            <span>{profile.displayName}</span>
+            <span>Muhamad Jibril Muqodas</span>
             <span>{profile.role}</span>
           </figcaption>
         </figure>
@@ -206,5 +206,5 @@ export function Home() {
         </div>
       </section>
     </div>
-  )
+  );
 }

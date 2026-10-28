@@ -4,7 +4,13 @@ export const profile = {
   introduction:
     "I’m Muhamad Jibril Muqodas, a software developer focused on backend features, APIs, and the business logic that makes software useful.",
   portrait: null as { src: string; alt: string } | null,
-  email: null as string | null,
+  email: "muhammad.jibrilmuqoddas@gmail.com",
+  resume: null as { href: string; sizeLabel: string } | null,
+  socials: {
+    linkedin: "https://www.linkedin.com/in/muhamad-jibril-19b602285",
+    github: "https://github.com/2ndmurphy",
+    dribbble: "https://dribbble.com/Murphy_Lawden09",
+  },
   experience: [
     {
       title: "Professional development",

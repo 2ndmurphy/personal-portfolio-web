@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { profile } from '../../content/profile'
+import { SiteFooter } from './SiteFooter'
 
 const navigation = [
   { label: 'Home', href: '#home' },
@@ -93,18 +94,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <main id="main" tabIndex={-1}>
         {children}
       </main>
-      <footer className="site-footer container-shell">
-        <div className="footer-meta">
-          <span>{profile.role}</span>
-          <a href="#home">
-            Back to top <span aria-hidden="true">↑</span>
-          </a>
-        </div>
-        <p className="footer-wordmark" aria-hidden="true">
-          {profile.displayName}
-          <span>.</span>
-        </p>
-      </footer>
+      <SiteFooter />
     </>
   )
 }
